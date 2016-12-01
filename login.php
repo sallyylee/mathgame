@@ -6,22 +6,20 @@
             <h2>Please login to enjoy a math game</h2>
             <label class="control-label col-xs-3">email: </label>
             <div class="col-xs-6">
-                <input type="text" class="form-control" id="email" name="email" size="10" placeholder="Please eneter email"/>
+                <input type="text" class="form-control" id="email" name="email" size="10" placeholder="Please enter email" />
             </div>
         </div>
 
-        <div class="form-group">
+        <div class="form-group"> 
             <label class="control-label col-xs-3">password: </label>
             <div class="col-xs-6">
-                <input type="text" class="form-control" id="password" name="password" size="10" placeholder="Please enter password"/>
+                <input type="text" class="form-control" id="password" name="password" size="10" placeholder="Please enter password" />
             </div>
         </div>
-    </form>
-    <div class="col-xs-3 col-xs-offset-2">
-        <form action="authentication.php">
+        <div class="col-xs-3 col-xs-offset-2">
             <a><button type="submit" class="btn btn-primary">Enter</button></a>
-        </form>
-    </div>
+        </div>
+    </form>
 </div>
 <div class="container">
     <?php
