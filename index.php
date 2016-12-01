@@ -82,11 +82,11 @@
 </form>
 
 <div class="row">
-    <div class="col-sm-4 col-sm-offset-5 col-xs-5 col-xs-offset-3">
+    <div class="col-sm-4 col-sm-offset-5 col-xs-5 col-xs-offset-4">
         <?php echo $blurb ?>
     </div>
 </div>
 <div class="row">
-    <div class="col-sm-4 col-sm-offset-5 col-xs-5 col-xs-offset-3">Score: <?php echo "$score / $total" ?></div>
+    <div class="col-sm-4 col-sm-offset-5 col-xs-5 col-xs-offset-4">Score: <?php echo "$score / $total" ?></div>
 </div>
 <?php include("include/footer.php"); ?>
